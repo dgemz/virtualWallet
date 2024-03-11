@@ -1,0 +1,88 @@
+@import url(variable.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF-Pro-Text-Regular";
+}
+
+
+.header {
+    width: 100%;
+    padding: 0 .5em;
+    /* height: 60px; */
+    /* background: darkgoldenrod; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background: var(--color-ternario);
+}
+
+.header__logo {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.logo__icono {
+    /* background: green; */
+}
+
+.logo__icono img {
+    width: 3em;
+}
+
+.logo__titulo {
+    /* background: orange; */
+    color:  var(--color-primario);;
+    font-family: "SF-Pro-Text-Bold";
+    text-transform: uppercase;
+}
+
+.header__menu {
+    /* background: darkblue; */
+}
+
+.header__menu i {
+    font-size: 3em;
+    color: var(--color-primario);
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    background: var(--color-primario);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: .5em 0;
+}
+
+.footer ul li a img {
+    width: 2em;
+}
