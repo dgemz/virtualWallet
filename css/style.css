@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 body{
     background: var(--color-primario);
@@ -53,7 +56,10 @@ body{
 .logo__titulo {
     /* background: orange; */
     color: var(--color-ternario);
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     text-transform: uppercase;
 }
 
@@ -87,11 +93,17 @@ body{
 }
 
 .titulo__card h2 {
-    font-family: "SF-Pro-Text-Heavy";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 .titulo__card p {
-    font-family: "SF-Pro-Text-Light";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     text-transform: capitalize;
 }
 
@@ -115,13 +127,19 @@ body{
 .balance__two small {
     font-size: 1em;
     text-transform: uppercase;
-    font-family: "SF-Pro-Text-Medium";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 .balance__one label,
 .balance__two label {
     font-size: 1.3em;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 .balance__one progress[value] {
@@ -182,7 +200,10 @@ progress[value]::-moz-progress-bar {
 .activities__transactions h3{
     /* background: darkgoldenrod; */
     text-transform: capitalize;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     font-size: 1.3em;
     margin-bottom: 20px;
 }
@@ -204,7 +225,10 @@ progress[value]::-moz-progress-bar {
     background: var(--color-ternario);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
     color: var(--color-primario);
-    font-family: "SF-Pro-Text-Semibold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     text-transform: capitalize;
     display: flex;
     flex-direction: column;
@@ -215,15 +239,6 @@ progress[value]::-moz-progress-bar {
 .service__cards div i{
     font-size: 2.3em;
 }
-.service__cards__item_1, 
-.service__cards__item_2, 
-.service__cards__item_3{
-    /* background: darkmagenta; */
-}
-
-
-
-
 
 .activities__transactions{
     /* background: red; */
@@ -263,11 +278,17 @@ div.transactions__value{
 }
 div.transactions__description p,
 div.transactions__value p{
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 div.transactions__description small,
 div.transactions__value small{
-    font-family: "SF-Pro-Text-Light";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     color: var(--color-cuarto);
 }
 i.bx.bxs-up-arrow{

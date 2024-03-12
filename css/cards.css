@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 
@@ -42,8 +45,11 @@
 
 .logo__titulo {
     /* background: orange; */
-    color:  var(--color-primario);;
-    font-family: "SF-Pro-Text-Bold";
+    color:  var(--color-primario);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     text-transform: uppercase;
 }
 
@@ -81,7 +87,10 @@
     margin-top: 1em;
     font-size: 1.5em;
     text-transform: capitalize;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     color: var(--color-primario);
 }
 .main__banner{
@@ -136,14 +145,20 @@
     text-align: center;
 }
 .public__description p{
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     font-size: 1.3em;
     color: var(--color-primario);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .public__description small{
     display: block;
-    font-family: "SF-Pro-Text-Regular";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     font-size: 1em;
     color: var(--color-cuarto);
 }
@@ -154,7 +169,10 @@
     border-radius: 50px;
     font-size: 1em;
     background: var(--color-secundario);
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
     text-transform: capitalize;
     color: var(--color-ternario);
 }
@@ -200,14 +218,20 @@
 }
 .cards__item h2{
     color: var(--color-ternario);
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 .cards__item small{
     position: absolute;
     top: 30px;
     right: 4vw;
     color: var(--color-ternario);
-    font-family: "SF-Pro-Text-Semibold";
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 .cards__item img{

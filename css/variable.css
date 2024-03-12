@@ -1,8 +1,8 @@
 :root{
-    --color-primario: #33404F;
-    --color-secundario: #00DDA3;
-    --color-ternario: #FFFFFF;
-    --color-cuarto: #B5C5C3;
+    --color-primario: rgb(51, 84, 76);
+    --color-secundario: rgb(115, 35, 53);
+    --color-ternario: rgb(232, 167, 137);
+    --color-cuarto: rgb(113, 61, 39);
 }
 @font-face {
     font-family: "SF-Pro-Text-Bold";
