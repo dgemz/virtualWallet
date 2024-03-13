@@ -149,7 +149,7 @@ body{
     margin-top: 15px;
 }
 .process{
-    background: #00dda256;
+    background: rgba(115, 35, 52, 0.63);
     height: 150px;
     position: absolute;
     bottom: 50px;
